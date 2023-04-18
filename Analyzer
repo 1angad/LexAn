@@ -1,5 +1,4 @@
 // All Changes Made are to be consistent with Test2
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -156,7 +155,7 @@ int main() {
     //while(tokens.[i].type != INVALID)
     
     for (i = 0; tokens[i].type != INVALID; i++) {
-printf("Lexeme : %s\tToken ID : %d\n", tokens[i].lexeme, tokens[i].type);
+printf("Lexeme --> %s\tToken ID : %d\n", tokens[i].lexeme, tokens[i].type);
     }
     return 0;
 }
